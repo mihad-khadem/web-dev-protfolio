@@ -1,15 +1,24 @@
 *{
     font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 .text-primary{
     color: #FD6E0A;
 }
 .btn-primary{
     background-color: #FD6E0A;
-    border: 5px;
+    border: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    padding: 15px 35px;
 }
-nav{
+nav { 
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
 }
 
 .nav-title{
@@ -23,6 +32,8 @@ nav{
 
 nav ul {
     display:flex ;
+    align-items: center;
+    
 }
 
 nav li {
@@ -32,4 +43,11 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px ;
 }
