@@ -84,6 +84,9 @@ main{
     max-width: 1140px;
     margin: 0px auto;
 }
+main section{
+    margin-top: 130px;
+}
 .section-title{
     color: #181818;
     text-align: center;
@@ -119,9 +122,36 @@ main{
 
 .skills-container{
     display: flex;
+    gap: 24px;
     
 }
 .skill{
     background-color: #fff;
     border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.3);
+}
+.skill-des{
+    color: #757575;
+}
+
+/* Resume Section  */
+
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+}
+.resume-title{
+    display: flex;
+    justify-content: center;
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.resume-col-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+
 }
