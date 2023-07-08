@@ -139,7 +139,12 @@ main section{
 
 .resume-container{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 50px;
+
+}
+.resume-container hr{
+    margin: 30px;
 }
 .resume-title{
     display: flex;
@@ -148,10 +153,30 @@ main section{
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+    margin: 30px;
+    margin-bottom: 10px;
 }
 .resume-col-title{
+    
     color: #474747;
     font-size: 25px;
     font-weight: 700;
 
+}
+.resume-h2-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume-item-des , .resume-item-ins{
+    color: #757575;
+
+}
+.resume-item-ins{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
