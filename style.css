@@ -113,3 +113,15 @@ main{
 .about-info{
     text-align: center;
 }
+#w-i-d-description{
+    padding: 30px 150px;
+}
+
+.skills-container{
+    display: flex;
+    
+}
+.skill{
+    background-color: #fff;
+    border-radius: 5px;
+}
