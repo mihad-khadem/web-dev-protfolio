@@ -1,12 +1,14 @@
+/* Shared Styles */
 *{
+
     font-family: 'Open Sans', sans-serif;
-    margin: 0px;
-    padding: 0px;
+   
 }
 .text-primary{
     color: #FD6E0A;
 }
 .btn-primary{
+    border-radius: 5px;
     background-color: #FD6E0A;
     border: 0px;
     font-size: 20px;
@@ -14,6 +16,7 @@
     color: #fff;
     padding: 15px 35px;
 }
+/* Nav Styles */
 nav { 
     display: flex;
     justify-content: space-between;
@@ -22,18 +25,15 @@ nav {
 }
 
 .nav-title{
-    color: #181818;
-    
+    color: #181818; 
     font-size: 45px;
-    
     font-weight: 800;
     
 }
 
-nav ul {
+nav>ul {
     display:flex ;
-    align-items: center;
-    
+    align-items: center; 
 }
 
 nav li {
@@ -43,11 +43,20 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+    
 }
 
 .header{
     background-color: #FFF8F3;
 }
-.banner{
-    padding: 30px 30px 30px 150px ;
+.banner {
+    /* padding: 30px 30px 30px 150px ; 
+    width: 300px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.profile{
+    padding: 30px 30px 30px 150px;
+    width: 300px;
 }
