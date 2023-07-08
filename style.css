@@ -79,6 +79,11 @@ nav a {
 }
 
 /* Main Section Starts */
+
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
 .section-title{
     color: #181818;
     text-align: center;
@@ -100,4 +105,11 @@ nav a {
     background-color: #FFF8F3;
     margin: 130px 0px;
     
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
